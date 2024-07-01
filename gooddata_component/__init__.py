@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Determine the absolute path to the build directory using pathlib
 current_dir = Path(__file__).parent.absolute()
-build_dir = current_dir / "gooddata-react" / "build"
+build_dir = current_dir / "gooddata-react" / "esm"
 
 _component_func = components.declare_component(
     "gooddata_component",
