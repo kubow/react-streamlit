@@ -16,9 +16,11 @@ pip install -r ./requirements.txt
 
 ```
 # yarn create react-app gooddata-react --template typescript
-npx @gooddata/app-toolkit@latest init
+# npx @gooddata/app-toolkit@latest init
 cd gooddata-react
 yarn add streamlit-component-lib
+npm install @gooddata/api-client-tiger @gooddata/sdk-backend-tiger
+npm install @gooddata/sdk-ui-dashboard @gooddata/sdk-model
 yarn start
 ```
 

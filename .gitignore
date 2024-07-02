@@ -130,8 +130,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# nodejs install directory
+gooddata_component/gooddata-react/node_modules
 # nodejs build directory
 gooddata_component/gooddata-react/esm
+# nodejs backup
+gooddata_component/gooddata-react-backup
 
 # Spyder project settings
 .spyderproject
